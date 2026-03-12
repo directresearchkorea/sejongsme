@@ -1,5 +1,6 @@
 import os
 import sys
+import subprocess
 import json
 import re
 import shutil
@@ -316,6 +317,18 @@ def main():
         print("[정보] 새로 수집된 이벤트가 없습니다. 기존 데이터를 유지합니다.")
     
     print("\n[완료] 캘린더 데이터 업데이트 프로세스 종료")
+    
+    # 6. 변경 사항 자동 Commit 및 Push (배포)
+    print("\n[배포] GitHub 저장소에 변경사항을 자동으로 커밋 및 푸시합니다...")
+    try:
+        deploy_script = os.path.join(PROJECT_DIR, 'deploy.bat')
+        if os.path.exists(deploy_script):
+            subprocess.run([deploy_script], cwd=PROJECT_DIR, shell=True, check=True)
+            print("[배포 성공] GitHub Pages에 자동 반영되었습니다.")
+        else:
+            print("[경고] deploy.bat 파일을 찾을 수 없어 자동 배포를 건너뜁니다.")
+    except Exception as e:
+        print(f"[배포 실패] 배포 스크립트 실행 중 오류가 발생했습니다: {e}")
 
 
 if __name__ == "__main__":

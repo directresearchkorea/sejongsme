@@ -1,4 +1,4 @@
-﻿const calendarEvents = [
+const calendarEvents = [
     // 1. 중소기업 지원사업 (SME Support) - Grey
     {
         title: "소상공인 정책자금 구조개편 아이디어 공모전 마감",
@@ -129,9 +129,9 @@
         extendedProps: {
             category: "sejong",
             categoryLabel: "세종시 지원사업",
-            description: "기관: 세종테크노파크\n제12회 대한민국 SW융합 해커톤 대회 세종지역 참가팀 모집 공고 안내.",
+            description: "기관: 세종테크노파크\\n제12회 대한민국 SW융합 해커톤 대회 세종지역 참가팀 모집 공고 안내.",
             price: "세종테크노파크 공고",
-            url: "https://sjtp.or.kr"
+            url: ""
         }
     },
     {
@@ -141,9 +141,9 @@
         extendedProps: {
             category: "sejong",
             categoryLabel: "세종시 지원사업",
-            description: "기관: 세종테크노파크\n2026년 지역특화콘텐츠개발지원사업 역량강화 교육 수강생 모집 안내.",
+            description: "기관: 세종테크노파크\\n2026년 지역특화콘텐츠개발지원사업 역량강화 교육 수강생 모집 안내.",
             price: "세종테크노파크 공고",
-            url: "https://sjtp.or.kr"
+            url: ""
         }
     },
 
