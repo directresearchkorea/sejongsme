@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>중소기업 지원 포털 | 대시보드</title>
+    <meta name="description" content="중소기업 지원 정책 뉴스, 사회조사 통계 및 박람회 일정을 한눈에 확인하는 통합 대시보드입니다.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- FullCalendar CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.10/locales-all.global.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header compact">
+                <div class="header-top-row">
+                    <div class="brand-logo mini">
+                        <img src="sejong_logo.png" alt="세종특별자치시 로고">
+                    </div>
+                    <a href="https://open.kakao.com/o/gfVvytPc" target="_blank" class="kakao-box-link" title="세종스타트업 오픈챗">
+                        <div class="k-line"><span class="icon">💬</span> 세종스타트업</div>
+                        <div class="k-line">오픈챗입니다.</div>
+                        <div class="k-line highlight">클릭해서 조인!</div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="legend-container">
+                <h3>이벤트 카테고리</h3>
+                <ul class="legend-list">
+                    <li class="legend-item">
+                        <div class="color-dot bg-grey"></div>
+                        <div class="legend-text">
+                            <strong>중소기업 지원사업</strong>
+                            <span>정부 및 공공기관 공고</span>
+                        </div>
+                    </li>
+                    <li class="legend-item">
+                        <div class="color-dot bg-orange"></div>
+                        <div class="legend-text">
+                            <strong>세종시 지원사업</strong>
+                            <span>세종 지역 특화 지원</span>
+                        </div>
+                    </li>
+                    <li class="legend-item">
+                        <div class="color-dot bg-green"></div>
+                        <div class="legend-text">
+                            <strong>박람회 및 전시회</strong>
+                            <span>전국 주요 산업 전시</span>
+                        </div>
+                    </li>
+                    <li class="legend-item">
+                        <div class="color-dot bg-pink"></div>
+                        <div class="legend-text">
+                            <strong>충청권 행사</strong>
+                            <span>지역 내 주요 비즈니스</span>
+                        </div>
+                    </li>
+                    <li class="legend-item">
+                        <div class="color-dot bg-indigo"></div>
+                        <div class="legend-text">
+                            <strong>사회조사 입찰정보</strong>
+                            <span>조달청, 국책연구원 등</span>
+                        </div>
+                    </li>
+                    <li class="legend-item">
+                        <div class="color-dot bg-teal"></div>
+                        <div class="legend-text">
+                            <strong>세종 산하기관 입찰</strong>
+                            <span>교통공사·시설공단·재단 등</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <div class="sidebar-footer">
+                <div class="status-indicator">
+                    <span class="dot active"></span>
+                    <span>시스템 연동 완료</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content" style="padding: 1rem; overflow: hidden; display: flex; flex-direction: column; gap: 1rem;">
+            <!-- Calendar Section -->
+            <section class="widget glass-panel calendar-wrapper" id="calendar-widget" style="flex-grow: 1; margin: 0;">
+                <div id="calendar"></div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Event Detail Modal -->
+    <div id="eventModal" class="modal-overlay hidden">
+        <div class="modal glass-panel">
+            <button class="close-btn" id="closeModal">&times;</button>
+            <div class="modal-header">
+                <span id="modalCategory" class="badge">카테고리</span>
+                <h2 id="modalTitle">이벤트 제목</h2>
+            </div>
+            <div class="modal-body">
+                <p><strong>일시:</strong> <span id="modalDate"></span></p>
+                <p><strong>비용:</strong> <span id="modalPrice"></span></p>
+                <div id="modalDescription" class="modal-description"></div>
+                <div class="modal-link-wrap" style="margin-top: 1.5rem;">
+                    <a id="modalUrl" href="#" target="_blank" class="primary-btn" style="background: var(--accent); color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; display: inline-block;">공식 홈페이지 방문</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Scripts -->
+    <script src="event_data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
