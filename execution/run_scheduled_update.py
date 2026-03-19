@@ -6,9 +6,21 @@ import subprocess
 from datetime import datetime
 import sys
 
+# .env 파일에서 GMAIL_USER, GMAIL_APP_PASSWORD 읽어오기
+env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.env')
+if os.path.exists(env_path):
+    with open(env_path, 'r', encoding='utf-8') as f:
+        for line in f:
+            if '=' in line and not line.strip().startswith('#'):
+                k, v = line.strip().split('=', 1)
+                os.environ[k.strip()] = v.strip()
+
+GMAIL_USER = os.environ.get('GMAIL_USER', '')
+GMAIL_APP_PASSWORD = os.environ.get('GMAIL_APP_PASSWORD', '')
+
 def send_email(subject, body, to_email):
-    gmail_user = "yourfriendjay@gmail.com"
-    gmail_password = "REMOVED_SECRET"
+    gmail_user = GMAIL_USER
+    gmail_password = GMAIL_APP_PASSWORD
 
     msg = MIMEMultipart()
     msg['From'] = gmail_user
