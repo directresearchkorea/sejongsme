@@ -129,7 +129,7 @@ const calendarEvents = [
         extendedProps: {
             category: "sejong",
             categoryLabel: "세종시 지원사업",
-            description: "기관: 세종테크노파크\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n제12회 대한민국 SW융합 해커톤 대회 세종지역 참가팀 모집 공고 안내.",
+            description: "기관: 세종테크노파크\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n제12회 대한민국 SW융합 해커톤 대회 세종지역 참가팀 모집 공고 안내.",
             price: "세종테크노파크 공고",
             url: ""
         }
@@ -141,7 +141,7 @@ const calendarEvents = [
         extendedProps: {
             category: "sejong",
             categoryLabel: "세종시 지원사업",
-            description: "기관: 세종테크노파크\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n2026년 지역특화콘텐츠개발지원사업 역량강화 교육 수강생 모집 안내.",
+            description: "기관: 세종테크노파크\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n2026년 지역특화콘텐츠개발지원사업 역량강화 교육 수강생 모집 안내.",
             price: "세종테크노파크 공고",
             url: ""
         }
@@ -643,19 +643,6 @@ const calendarEvents = [
         }
     },
     {
-        title: "[문화관광재단] 2026년 세종문화예술회관 방재·영선·청소 위탁용역 입찰공고",
-        start: "2025-11-18",
-        color: "#0d9488",
-        extendedProps: {
-            category: "sejong_inst",
-            categoryLabel: "세종 산하기관 입찰",
-            description: "기관: 세종문화관광재단\n(문화예술 공연, 축제 및 관광 활성화)\n\n공고: 2026년 세종문화예술회관 방재·영선·청소 위탁용역 입찰공고",
-            price: "세종문화관광재단 공고",
-            url: "https://www.sjcf.or.kr/bid/list.do?key=2111060067",
-            source: "web_sjcf"
-        }
-    },
-    {
         title: "[문화관광재단] 2026년 세종예술의전당 방재·영선 용역 입찰공고",
         start: "2025-11-19",
         color: "#0d9488",
@@ -708,19 +695,6 @@ const calendarEvents = [
         }
     },
     {
-        title: "[문화관광재단] 2026년 길거리 한글문화 한마당(舊세종한글컬처로드) 운영 대행",
-        start: "2026-02-20",
-        color: "#0d9488",
-        extendedProps: {
-            category: "sejong_inst",
-            categoryLabel: "세종 산하기관 입찰",
-            description: "기관: 세종문화관광재단\n(문화예술 공연, 축제 및 관광 활성화)\n\n공고: 2026년 길거리 한글문화 한마당(舊세종한글컬처로드) 운영 대행 용역 입찰공고",
-            price: "세종문화관광재단 공고",
-            url: "https://www.sjcf.or.kr/bid/list.do?key=2111060067",
-            source: "web_sjcf"
-        }
-    },
-    {
         title: "[문화관광재단] 2026 한글복합문화공간 한글상점 운영대행 용역 입찰공고",
         start: "2026-03-12",
         color: "#0d9488",
@@ -741,6 +715,32 @@ const calendarEvents = [
             category: "sejong_inst",
             categoryLabel: "세종 산하기관 입찰",
             description: "기관: 세종문화관광재단\n(문화예술 공연, 축제 및 관광 활성화)\n\n공고: 2026 세종낙화축제 운영 대행 용역 입찰공고",
+            price: "세종문화관광재단 공고",
+            url: "https://www.sjcf.or.kr/bid/list.do?key=2111060067",
+            source: "web_sjcf"
+        }
+    },
+    {
+        title: "[문화관광재단] (재공고)2026년 길거리 한글문화 한마당(舊세종한글컬처로드) ",
+        start: "2026-03-17",
+        color: "#0d9488",
+        extendedProps: {
+            category: "sejong_inst",
+            categoryLabel: "세종 산하기관 입찰",
+            description: "기관: 세종문화관광재단\n(문화예술 공연, 축제 및 관광 활성화)\n\n공고: (재공고)2026년 길거리 한글문화 한마당(舊세종한글컬처로드) 운영 대행 용역 입찰공고",
+            price: "세종문화관광재단 공고",
+            url: "https://www.sjcf.or.kr/bid/list.do?key=2111060067",
+            source: "web_sjcf"
+        }
+    },
+    {
+        title: "[문화관광재단] 2026년 길거리 한글문화 한마당(舊세종한글컬처로드) 운영 대행",
+        start: "2026-03-17",
+        color: "#0d9488",
+        extendedProps: {
+            category: "sejong_inst",
+            categoryLabel: "세종 산하기관 입찰",
+            description: "기관: 세종문화관광재단\n(문화예술 공연, 축제 및 관광 활성화)\n\n공고: 2026년 길거리 한글문화 한마당(舊세종한글컬처로드) 운영 대행 용역 입찰공고",
             price: "세종문화관광재단 공고",
             url: "https://www.sjcf.or.kr/bid/list.do?key=2111060067",
             source: "web_sjcf"
