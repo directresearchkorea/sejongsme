@@ -129,7 +129,7 @@ const calendarEvents = [
         extendedProps: {
             category: "sejong",
             categoryLabel: "세종시 지원사업",
-            description: "기관: 세종테크노파크\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n제12회 대한민국 SW융합 해커톤 대회 세종지역 참가팀 모집 공고 안내.",
+            description: "기관: 세종테크노파크\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n제12회 대한민국 SW융합 해커톤 대회 세종지역 참가팀 모집 공고 안내.",
             price: "세종테크노파크 공고",
             url: ""
         }
@@ -141,7 +141,7 @@ const calendarEvents = [
         extendedProps: {
             category: "sejong",
             categoryLabel: "세종시 지원사업",
-            description: "기관: 세종테크노파크\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n2026년 지역특화콘텐츠개발지원사업 역량강화 교육 수강생 모집 안내.",
+            description: "기관: 세종테크노파크\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n2026년 지역특화콘텐츠개발지원사업 역량강화 교육 수강생 모집 안내.",
             price: "세종테크노파크 공고",
             url: ""
         }
@@ -539,211 +539,16 @@ const calendarEvents = [
 
     // 6. 세종 산하기관 입찰정보 (Sejong Institutions) - Teal
     {
-        title: "[사회서비스원] 세종형 돌봄체계(온:돌봄) 조직설계 및 플랫폼 구현 사전 컨설팅",
-        start: "2024-03-25",
+        title: "[교통] 세종도시교통공사 임직원 사칭주의",
+        start: "2026-02-27",
         color: "#0d9488",
         extendedProps: {
             category: "sejong_inst",
             categoryLabel: "세종 산하기관 입찰",
-            description: "기관: 세종사회서비스원\n(사회복지 서비스 제공 및 정책 연구)\n\n공고: 세종형 돌봄체계(온:돌봄) 조직설계 및 플랫폼 구현 사전 컨설팅 용역 입찰 공고",
-            price: "세종사회서비스원 공고",
-            url: "https://sj.pass.or.kr/board.es?mid=a10502010000&bid=0014&act=view&list_no=1704&tag=&nPage=1",
-            source: "web_sjpass"
-        }
-    },
-    {
-        title: "[사회서비스원] '세종형 돌봄체계(온:돌봄) 조직설계 및 플랫폼 구현 사전 컨설",
-        start: "2024-04-04",
-        color: "#0d9488",
-        extendedProps: {
-            category: "sejong_inst",
-            categoryLabel: "세종 산하기관 입찰",
-            description: "기관: 세종사회서비스원\n(사회복지 서비스 제공 및 정책 연구)\n\n공고: '세종형 돌봄체계(온:돌봄) 조직설계 및 플랫폼 구현 사전 컨설팅 용역' 개..",
-            price: "세종사회서비스원 공고",
-            url: "https://sj.pass.or.kr/board.es?mid=a10502010000&bid=0014&act=view&list_no=1730&tag=&nPage=1",
-            source: "web_sjpass"
-        }
-    },
-    {
-        title: "[사회서비스원] (재공고)세종형 돌봄체계(온:돌봄) 조직설계 및 플랫폼 구현 사",
-        start: "2024-04-17",
-        color: "#0d9488",
-        extendedProps: {
-            category: "sejong_inst",
-            categoryLabel: "세종 산하기관 입찰",
-            description: "기관: 세종사회서비스원\n(사회복지 서비스 제공 및 정책 연구)\n\n공고: (재공고)세종형 돌봄체계(온:돌봄) 조직설계 및 플랫폼 구현 사전 컨설팅 용역 입찰 공..",
-            price: "세종사회서비스원 공고",
-            url: "https://sj.pass.or.kr/board.es?mid=a10502010000&bid=0014&act=view&list_no=1728&tag=&nPage=1",
-            source: "web_sjpass"
-        }
-    },
-    {
-        title: "[사회서비스원] 세종시 청년의 고립·은둔 실태조사 용역 입찰공고",
-        start: "2024-06-17",
-        color: "#0d9488",
-        extendedProps: {
-            category: "sejong_inst",
-            categoryLabel: "세종 산하기관 입찰",
-            description: "기관: 세종사회서비스원\n(사회복지 서비스 제공 및 정책 연구)\n\n공고: 세종시 청년의 고립·은둔 실태조사 용역 입찰공고",
-            price: "세종사회서비스원 공고",
-            url: "https://sj.pass.or.kr/board.es?mid=a10502010000&bid=0014&act=view&list_no=1800&tag=&nPage=1",
-            source: "web_sjpass"
-        }
-    },
-    {
-        title: "[사회서비스원] 세종시 청년의 고립·은둔 실태조사 용역 입찰 공고(재공고)",
-        start: "2024-07-11",
-        color: "#0d9488",
-        extendedProps: {
-            category: "sejong_inst",
-            categoryLabel: "세종 산하기관 입찰",
-            description: "기관: 세종사회서비스원\n(사회복지 서비스 제공 및 정책 연구)\n\n공고: 세종시 청년의 고립·은둔 실태조사 용역 입찰 공고(재공고)",
-            price: "세종사회서비스원 공고",
-            url: "https://sj.pass.or.kr/board.es?mid=a10502010000&bid=0014&act=view&list_no=1827&tag=&nPage=1",
-            source: "web_sjpass"
-        }
-    },
-    {
-        title: "[사회서비스원] 2025년 충녕·반곡하나·한뜰린 어린이집  급식 식재료 납품업체",
-        start: "2025-01-23",
-        color: "#0d9488",
-        extendedProps: {
-            category: "sejong_inst",
-            categoryLabel: "세종 산하기관 입찰",
-            description: "기관: 세종사회서비스원\n(사회복지 서비스 제공 및 정책 연구)\n\n공고: 2025년 충녕·반곡하나·한뜰린 어린이집  급식 식재료 납품업체 선정 입찰 공고 안내",
-            price: "세종사회서비스원 공고",
-            url: "https://sj.pass.or.kr/board.es?mid=a10502010000&bid=0014&act=view&list_no=1999&tag=&nPage=1",
-            source: "web_sjpass"
-        }
-    },
-    {
-        title: "[문화관광재단] 2026년 박연문화관 방재·영선 용역 입찰공고",
-        start: "2025-11-18",
-        color: "#0d9488",
-        extendedProps: {
-            category: "sejong_inst",
-            categoryLabel: "세종 산하기관 입찰",
-            description: "기관: 세종문화관광재단\n(문화예술 공연, 축제 및 관광 활성화)\n\n공고: 2026년 박연문화관 방재·영선 용역 입찰공고",
-            price: "세종문화관광재단 공고",
-            url: "https://www.sjcf.or.kr/bid/list.do?key=2111060067",
-            source: "web_sjcf"
-        }
-    },
-    {
-        title: "[문화관광재단] 2026년 박연문화관 청소·경비 용역 입찰공고",
-        start: "2025-11-18",
-        color: "#0d9488",
-        extendedProps: {
-            category: "sejong_inst",
-            categoryLabel: "세종 산하기관 입찰",
-            description: "기관: 세종문화관광재단\n(문화예술 공연, 축제 및 관광 활성화)\n\n공고: 2026년 박연문화관 청소·경비 용역 입찰공고",
-            price: "세종문화관광재단 공고",
-            url: "https://www.sjcf.or.kr/bid/list.do?key=2111060067",
-            source: "web_sjcf"
-        }
-    },
-    {
-        title: "[문화관광재단] 2026년 세종예술의전당 방재·영선 용역 입찰공고",
-        start: "2025-11-19",
-        color: "#0d9488",
-        extendedProps: {
-            category: "sejong_inst",
-            categoryLabel: "세종 산하기관 입찰",
-            description: "기관: 세종문화관광재단\n(문화예술 공연, 축제 및 관광 활성화)\n\n공고: 2026년 세종예술의전당 방재·영선 용역 입찰공고",
-            price: "세종문화관광재단 공고",
-            url: "https://www.sjcf.or.kr/bid/list.do?key=2111060067",
-            source: "web_sjcf"
-        }
-    },
-    {
-        title: "[문화관광재단] 2026년 세종예술의전당 청소 용역 입찰공고",
-        start: "2025-11-19",
-        color: "#0d9488",
-        extendedProps: {
-            category: "sejong_inst",
-            categoryLabel: "세종 산하기관 입찰",
-            description: "기관: 세종문화관광재단\n(문화예술 공연, 축제 및 관광 활성화)\n\n공고: 2026년 세종예술의전당 청소 용역 입찰공고",
-            price: "세종문화관광재단 공고",
-            url: "https://www.sjcf.or.kr/bid/list.do?key=2111060067",
-            source: "web_sjcf"
-        }
-    },
-    {
-        title: "[문화관광재단] 2026년 세종예술의전당 경비 용역 입찰공고",
-        start: "2025-11-19",
-        color: "#0d9488",
-        extendedProps: {
-            category: "sejong_inst",
-            categoryLabel: "세종 산하기관 입찰",
-            description: "기관: 세종문화관광재단\n(문화예술 공연, 축제 및 관광 활성화)\n\n공고: 2026년 세종예술의전당 경비 용역 입찰공고",
-            price: "세종문화관광재단 공고",
-            url: "https://www.sjcf.or.kr/bid/list.do?key=2111060067",
-            source: "web_sjcf"
-        }
-    },
-    {
-        title: "[문화관광재단] 2026년 세종시문화관광재단 전산·정보보안 시스템 통합유지보수 ",
-        start: "2025-12-04",
-        color: "#0d9488",
-        extendedProps: {
-            category: "sejong_inst",
-            categoryLabel: "세종 산하기관 입찰",
-            description: "기관: 세종문화관광재단\n(문화예술 공연, 축제 및 관광 활성화)\n\n공고: 2026년 세종시문화관광재단 전산·정보보안 시스템 통합유지보수 입찰공고",
-            price: "세종문화관광재단 공고",
-            url: "https://www.sjcf.or.kr/bid/list.do?key=2111060067",
-            source: "web_sjcf"
-        }
-    },
-    {
-        title: "[문화관광재단] 2026 한글복합문화공간 한글상점 운영대행 용역 입찰공고",
-        start: "2026-03-12",
-        color: "#0d9488",
-        extendedProps: {
-            category: "sejong_inst",
-            categoryLabel: "세종 산하기관 입찰",
-            description: "기관: 세종문화관광재단\n(문화예술 공연, 축제 및 관광 활성화)\n\n공고: 2026 한글복합문화공간 한글상점 운영대행 용역 입찰공고",
-            price: "세종문화관광재단 공고",
-            url: "https://www.sjcf.or.kr/bid/list.do?key=2111060067",
-            source: "web_sjcf"
-        }
-    },
-    {
-        title: "[문화관광재단] 2026 세종낙화축제 운영 대행 용역 입찰공고",
-        start: "2026-03-12",
-        color: "#0d9488",
-        extendedProps: {
-            category: "sejong_inst",
-            categoryLabel: "세종 산하기관 입찰",
-            description: "기관: 세종문화관광재단\n(문화예술 공연, 축제 및 관광 활성화)\n\n공고: 2026 세종낙화축제 운영 대행 용역 입찰공고",
-            price: "세종문화관광재단 공고",
-            url: "https://www.sjcf.or.kr/bid/list.do?key=2111060067",
-            source: "web_sjcf"
-        }
-    },
-    {
-        title: "[문화관광재단] (재공고)2026년 길거리 한글문화 한마당(舊세종한글컬처로드) ",
-        start: "2026-03-17",
-        color: "#0d9488",
-        extendedProps: {
-            category: "sejong_inst",
-            categoryLabel: "세종 산하기관 입찰",
-            description: "기관: 세종문화관광재단\n(문화예술 공연, 축제 및 관광 활성화)\n\n공고: (재공고)2026년 길거리 한글문화 한마당(舊세종한글컬처로드) 운영 대행 용역 입찰공고",
-            price: "세종문화관광재단 공고",
-            url: "https://www.sjcf.or.kr/bid/list.do?key=2111060067",
-            source: "web_sjcf"
-        }
-    },
-    {
-        title: "[문화관광재단] 2026년 길거리 한글문화 한마당(舊세종한글컬처로드) 운영 대행",
-        start: "2026-03-17",
-        color: "#0d9488",
-        extendedProps: {
-            category: "sejong_inst",
-            categoryLabel: "세종 산하기관 입찰",
-            description: "기관: 세종문화관광재단\n(문화예술 공연, 축제 및 관광 활성화)\n\n공고: 2026년 길거리 한글문화 한마당(舊세종한글컬처로드) 운영 대행 용역 입찰공고",
-            price: "세종문화관광재단 공고",
-            url: "https://www.sjcf.or.kr/bid/list.do?key=2111060067",
-            source: "web_sjcf"
+            description: "공고명: 세종도시교통공사 임직원 사칭주의\n(도시철도, BRT 운영 및 교통 관련 사업)\n\n기관: 교통공사 홈페이지",
+            price: " 참조",
+            url: "https://www.sctc.kr/bbs/view/BBSS1612021757537630/BBSW2602271645026417/?",
+            source: "web_sctc"
         }
     },
 ];
