@@ -383,6 +383,206 @@ const calendarEvents = [
         }
     },
 
+    // --- 4월 전시회 (검증된 일정) ---
+    {
+        title: "IFS 프랜차이즈 창업·산업 박람회 (COEX)",
+        start: "2026-04-02",
+        end: "2026-04-05",
+        color: "#065f46",
+        extendedProps: {
+            category: "exhibition",
+            categoryLabel: "박람회 및 전시회",
+            description: "2026 상반기 IFS 프랜차이즈 창업·산업 박람회. 코엑스 Hall C, D.",
+            price: "사전등록 무료",
+            url: "https://www.coex.co.kr/event/full-schedules/",
+            source: "web_search"
+        }
+    },
+    {
+        title: "서울국제불교박람회 & 붓다아트페어 (COEX)",
+        start: "2026-04-02",
+        end: "2026-04-06",
+        color: "#065f46",
+        extendedProps: {
+            category: "exhibition",
+            categoryLabel: "박람회 및 전시회",
+            description: "2026 서울국제불교박람회 & 제14회 붓다아트페어. 코엑스 Hall B.",
+            price: "유료",
+            url: "https://www.coex.co.kr/event/full-schedules/",
+            source: "web_search"
+        }
+    },
+    {
+        title: "제49회 베페 베이비페어 (COEX)",
+        start: "2026-04-02",
+        end: "2026-04-06",
+        color: "#065f46",
+        extendedProps: {
+            category: "exhibition",
+            categoryLabel: "박람회 및 전시회",
+            description: "제49회 베페 베이비페어. 임신·출산·육아 종합 박람회. 코엑스 Hall A.",
+            price: "사전등록 무료 / 현장 유료",
+            url: "https://www.coex.co.kr/event/full-schedules/",
+            source: "web_search"
+        }
+    },
+    {
+        title: "2026 대구국제안경전 DIOPS (EXCO)",
+        start: "2026-04-01",
+        end: "2026-04-04",
+        color: "#065f46",
+        extendedProps: {
+            category: "exhibition",
+            categoryLabel: "박람회 및 전시회",
+            description: "2026 대구국제안경전(DIOPS). 엑스코 서관 1층 1~2홀.",
+            price: "사전등록시 무료",
+            url: "https://www.exco.co.kr",
+            source: "web_search"
+        }
+    },
+    {
+        title: "2026 인터내셔널 키스포츠페스티벌 대구 (EXCO)",
+        start: "2026-04-11",
+        end: "2026-04-13",
+        color: "#065f46",
+        extendedProps: {
+            category: "exhibition",
+            categoryLabel: "박람회 및 전시회",
+            description: "2026 인터내셔널 키스포츠페스티벌 대구. 엑스코 서관 1층 1~2홀.",
+            price: "유료",
+            url: "https://www.exco.co.kr",
+            source: "web_search"
+        }
+    },
+    {
+        title: "SIMTOS 2026 서울국제생산제조기술전 (KINTEX)",
+        start: "2026-04-13",
+        end: "2026-04-18",
+        color: "#065f46",
+        extendedProps: {
+            category: "exhibition",
+            categoryLabel: "박람회 및 전시회",
+            description: "대한민국 최대 생산제조기술 전시회. AI 자율제조 특별관. 킨텍스 제1·2전시장 전관.",
+            price: "사전등록 무료 / 현장 20,000원",
+            url: "https://www.simtos.org",
+            source: "web_search"
+        }
+    },
+    {
+        title: "서울커피엑스포 2026 (COEX)",
+        start: "2026-04-15",
+        end: "2026-04-19",
+        color: "#065f46",
+        extendedProps: {
+            category: "exhibition",
+            categoryLabel: "박람회 및 전시회",
+            description: "서울커피엑스포 2026. 코엑스 Hall A, B.",
+            price: "사전등록 무료",
+            url: "https://www.coex.co.kr/event/full-schedules/",
+            source: "web_search"
+        }
+    },
+    {
+        title: "한국국제베이커리페어 2026 (COEX)",
+        start: "2026-04-16",
+        end: "2026-04-20",
+        color: "#065f46",
+        extendedProps: {
+            category: "exhibition",
+            categoryLabel: "박람회 및 전시회",
+            description: "한국국제베이커리페어 2026. 코엑스 Hall D.",
+            price: "사전등록 무료",
+            url: "https://www.coex.co.kr/event/full-schedules/",
+            source: "web_search"
+        }
+    },
+    {
+        title: "대한민국 맥주박람회 KIBEX & 드링크서울 (COEX)",
+        start: "2026-04-16",
+        end: "2026-04-19",
+        color: "#065f46",
+        extendedProps: {
+            category: "exhibition",
+            categoryLabel: "박람회 및 전시회",
+            description: "대한민국 맥주박람회(KIBEX) 및 드링크 서울. 코엑스 Hall C.",
+            price: "유료",
+            url: "https://www.coex.co.kr/event/full-schedules/",
+            source: "web_search"
+        }
+    },
+    {
+        title: "2026 부산국제보트쇼 (BEXCO)",
+        start: "2026-04-17",
+        end: "2026-04-20",
+        color: "#065f46",
+        extendedProps: {
+            category: "exhibition",
+            categoryLabel: "박람회 및 전시회",
+            description: "2026 부산국제보트쇼. 해양 레저 산업 및 보트 전시. 벡스코.",
+            price: "사전등록 무료",
+            url: "https://www.bexco.co.kr",
+            source: "web_search"
+        }
+    },
+    {
+        title: "2026 국제그린에너지엑스포 (EXCO)",
+        start: "2026-04-22",
+        end: "2026-04-25",
+        color: "#065f46",
+        extendedProps: {
+            category: "exhibition",
+            categoryLabel: "박람회 및 전시회",
+            description: "2026 국제그린에너지엑스포. 엑스코 동관 1층 2, 4~6홀.",
+            price: "사전등록시 무료",
+            url: "https://www.exco.co.kr",
+            source: "web_search"
+        }
+    },
+
+    // --- 5월 전시회 (검증된 일정) ---
+    {
+        title: "메가주 시즌1 펫산업전시회 (KINTEX)",
+        start: "2026-05-29",
+        end: "2026-06-01",
+        color: "#065f46",
+        extendedProps: {
+            category: "exhibition",
+            categoryLabel: "박람회 및 전시회",
+            description: "2026 메가주 시즌1 펫 산업 전시회. 킨텍스 제1전시장 7·8홀.",
+            price: "사전등록 무료",
+            url: "https://www.kintex.com",
+            source: "web_search"
+        }
+    },
+    {
+        title: "2026 부산국제식품엑스포 BOFOOD (BEXCO)",
+        start: "2026-05-27",
+        end: "2026-05-31",
+        color: "#065f46",
+        extendedProps: {
+            category: "exhibition",
+            categoryLabel: "박람회 및 전시회",
+            description: "2026 부산국제식품엑스포 BOFOOD. 식품/카페/베이커리/식품기계 전시. 벡스코.",
+            price: "사전등록 무료",
+            url: "https://www.bexco.co.kr",
+            source: "web_search"
+        }
+    },
+    {
+        title: "SIDEX 2026 서울국제치과기자재전 (COEX)",
+        start: "2026-05-29",
+        end: "2026-06-01",
+        color: "#065f46",
+        extendedProps: {
+            category: "exhibition",
+            categoryLabel: "박람회 및 전시회",
+            description: "제23회 서울국제치과기자재전시회 SIDEX 2026. 코엑스.",
+            price: "사전등록 무료",
+            url: "https://www.coex.co.kr/event/full-schedules/",
+            source: "web_search"
+        }
+    },
+
     // 4. 충청권 행사 (Chungcheong) - Pink
     {
         title: "충청·청주가구박람회 (OSCO)",

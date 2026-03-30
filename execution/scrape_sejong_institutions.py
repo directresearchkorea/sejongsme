@@ -113,8 +113,8 @@ INSTITUTION_REGISTRY = {
     'sjsisul': {
         'name': '시설공단',
         'short': '시설공단',
-        'url': 'https://www.sjsisul.or.kr',
-        'bid_url': 'https://www.sjsisul.or.kr/bbs/content/245',
+        'url': 'http://www.sjfmc.or.kr',
+        'bid_url': 'http://www.sjfmc.or.kr/cop/bbs/selectBoardList.do',
         'desc': '공영주차장, 환경시설, 체육시설 등 관리',
         'color': INSTITUTION_COLOR,
     },
@@ -137,8 +137,8 @@ INSTITUTION_REGISTRY = {
     'sjile': {
         'name': '평생교육원',
         'short': '교육',
-        'url': 'https://www.sjile.or.kr',
-        'bid_url': 'https://www.sjile.or.kr/bbs/board.do?menuId=MN050202',
+        'url': 'https://www.sjhle.or.kr',
+        'bid_url': 'https://www.sjhle.or.kr/menu.es?mid=a10502010000',
         'desc': '인재 양성 및 평생 프로그램 운영',
         'color': INSTITUTION_COLOR,
     },
@@ -169,8 +169,8 @@ INSTITUTION_REGISTRY = {
     'sjccei': {
         'name': '창조경제센터',
         'short': '창경',
-        'url': 'https://sejong.ccei.creativekorea.or.kr',
-        'bid_url': 'https://sejong.ccei.creativekorea.or.kr/service/business_list.do',
+        'url': 'https://sjstarton.or.kr',
+        'bid_url': 'https://sjstarton.or.kr/user/board/list.do?boardId=BBS_0000006',
         'desc': '창업 지원 및 혁신 생태계 조성',
         'color': INSTITUTION_COLOR,
     },
@@ -185,8 +185,8 @@ INSTITUTION_REGISTRY = {
     'sjadtc': {
         'name': '농업기술센터',
         'short': '농업',
-        'url': 'http://adtc.sejong.go.kr',
-        'bid_url': 'http://adtc.sejong.go.kr/sub04_01.do',
+        'url': 'https://www.sejong.go.kr/adtc/index.do',
+        'bid_url': 'https://www.sejong.go.kr/adtc/sub04_01.do',
         'desc': '농업인 교육 및 기술 보급',
         'color': INSTITUTION_COLOR,
     },

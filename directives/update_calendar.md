@@ -20,16 +20,16 @@
 | # | 기관명 | 약칭 | 홈페이지 | 입찰/공고 URL | 비고 |
 |---|--------|------|----------|---------------|------|
 | 1 | 세종도시교통공사 | 교통공사 | www.sctc.kr | /bbs/BBSS1612021757537630 | 공지사항 (입찰 포함) |
-| 2 | 세종시설관리공단 | 시설공단 | www.sjsisul.or.kr | /bbs/content/245 | 공영주차장, 환경·체육시설 |
+| 2 | 세종시설관리공단 | 시설공단 | www.sjfmc.or.kr | /cop/bbs/selectBoardList.do | 공영주차장, 환경·체육시설 |
 | 3 | 세종사회서비스원 | 사회서비스원 | sj.pass.or.kr | /menu.es?mid=a10502010000 | 사회복지, 정책연구 |
 | 4 | 세종문화관광재단 | 문화관광재단 | www.sjcf.or.kr | /bid/list.do?key=2111060067 | 문화예술, 축제 |
-| 5 | 세종인재평생교육진흥원 | 평생교육원 | www.sjile.or.kr | MN050202 게시판 | 인재양성, 평생교육 |
+| 5 | 세종인재평생교육진흥원 | 평생교육원 | www.sjhle.or.kr | /menu.es?mid=a10502010000 | 인재양성, 평생교육 |
 | 6 | 세종테크노파크 | 테크노파크 | sjtp.or.kr | 공고·알림 > 계약정보 | 산업육성, 기업지원 |
 | 7 | 세종신용보증재단 | 신용보증재단 | sjsinbo.or.kr | /sub060105 | 소상공인 금융지원 |
 | 8 | 세종로컬푸드 | 로컬푸드 | sjlocal.or.kr | /board/post/notice | 싱싱장터 운영 |
-| 9 | 세종창조경제혁신센터 | 창조경제센터 | sejong.ccei.creativekorea.or.kr | 사업공고 리스트 | 창업지원, 혁신생태계 |
+| 9 | 세종창조경제혁신센터 | 창조경제센터 | sjstarton.or.kr | /user/board/list.do?boardId=BBS_0000006 | 창업지원, 혁신생태계 |
 | 10 | 세종보건환경연구원 | 보건환경연구원 | sejong.go.kr/heri.do | /heri/sub04_01.do | 보건환경 조사·연구 |
-| 11 | 세종농업기술센터 | 농업기술센터 | adtc.sejong.go.kr | /sub04_01.do | 농업인 교육·기술보급 |
+| 11 | 세종농업기술센터 | 농업기술센터 | www.sejong.go.kr/adtc | /adtc/sub04_01.do | 농업인 교육·기술보급 |
 | 12 | 세종소방본부 | 소방본부 | sejong.go.kr/fire.do | /fire/sub04_01.do | 남부·북부소방서 |
 
 ## UI 카테고리 매핑
