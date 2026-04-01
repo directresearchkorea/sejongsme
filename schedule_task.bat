@@ -1,4 +1,4 @@
 @echo off
-cd /d C:\Users\Z640\Desktop\Calendar
+cd /d %~dp0
 py execution\run_scheduled_update.py
 exit
